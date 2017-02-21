@@ -379,6 +379,7 @@ begin
   ReadLn(FText,stroka);
   sl.Delimiter:='.';
   sl.DelimitedText:=stroka;
+
   StringArray[ic][0]:=sl[0];
   StringArray[ic][1]:=sl[1];
   inc(ic);
